@@ -12,9 +12,9 @@ let font;
 
 function preload(){
   font = loadFont('/assets/font_folder/font.ttf')
-  liftImage = loadImage("assets/liftImage.png")
-  frontDoorImage = loadImage("assets/frontDoorImage.png")
-  sheldonImage = loadImage("assets/sheldonImage.png")
+  liftImage = loadImage("/assets/liftImage.png")
+  frontDoorImage = loadImage("/assets/frontDoorImage.png")
+  sheldonImage = loadImage("/assets/sheldonImage.png")
   
 }
 
