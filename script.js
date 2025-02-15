@@ -11,17 +11,17 @@ let screen = 0;
 let font;
 
 function preload(){
-  /*font = loadFont('/assets/font_folder/font.ttf')*/
-  liftImage = loadImage("/assets/liftImage.png")
-  frontDoorImage = loadImage("/assets/frontDoorImage.png")
-  sheldonImage = loadImage("/assets/sheldonImage.png")
+  font = loadFont('/assets/font_folder/font.ttf')
+  liftImage = loadImage("assets/liftImage.png")
+  frontDoorImage = loadImage("assets/frontDoorImage.png")
+  sheldonImage = loadImage("assets/sheldonImage.png")
   
 }
 
 /* SETUP RUNS ONCE */
 function setup() {
   fill(255,255,255)
-  /*textFont(font);*/
+  textFont(font);
   textSize(36);
   createCanvas(600, 400);
   textAlign(CENTER);
